@@ -5,13 +5,12 @@
   "main": "index.js",
   "homepage": "https:/nasirwatts.github.io/myoldsite",
   "scripts": {
-    "sass": "node-sass -w scss/ -o dist/css/ --recursive",
     "deploy": "gh-pages -d dist"
   },
   "author": "Nasir Watts",
   "license": "MIT",
   "dependencies": {
     "gh-pages": "^2.0.1",
-    "node-sass": "^4.9.2"
+    "node": "^13.1.0"
   }
 }
